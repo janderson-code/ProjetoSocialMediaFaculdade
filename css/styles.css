@@ -37,14 +37,13 @@ body {
 
 }
 
-
 .header-nav .header-nav-left .input-sec {
   display: flex;
   align-items: center;
   background-color: #edf4fa;
   padding: 10px;
   margin-left: 10px;
-  border-radius: 999px;
+  border-radius: 99px;
 }
 
 .header-nav .header-nav-left .input-sec input {
