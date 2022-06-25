@@ -27,18 +27,18 @@ body {
   box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
 }
 
-.header-nav .left {
+.header-nav .header-nav-left {
   display: flex;
   justify-content: space-evenly;
 }
 
-.header-nav .left img {
+.header-nav .header-nav-left img {
   height: 40px;
 
 }
 
 
-.header-nav .left .input-sec {
+.header-nav .header-nav-left .input-sec {
   display: flex;
   align-items: center;
   background-color: #edf4fa;
@@ -47,7 +47,7 @@ body {
   border-radius: 999px;
 }
 
-.header-nav .left .input-sec input {
+.header-nav .header-nav-left .input-sec input {
   border: none;
   background-color: transparent;
   outline: 0;
