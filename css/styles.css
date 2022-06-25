@@ -25,7 +25,7 @@ body {
 
 .header-nav .header-nav-left {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .header-nav .header-nav-left img {
