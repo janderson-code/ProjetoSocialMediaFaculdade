@@ -98,7 +98,7 @@ body {
   margin-left: 10px;
 }
 
-/* Main Timeline*/
+/* Main Feed*/
 
 .feed {
   background-color: #FAFAFA;
@@ -228,7 +228,8 @@ body {
 .chat .online {
   color: green;
 }
-.chat .offline{
+
+.chat .offline {
   color: gray;
 }
 
