@@ -228,6 +228,9 @@ body {
 .chat .online {
   color: green;
 }
+.chat .offline{
+  color: gray;
+}
 
 /* Painel de Informações */
 .panel {
