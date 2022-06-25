@@ -153,34 +153,6 @@ body {
   padding: 10px;
 }
 
-.timeline .post .post-info .icons {
-  margin: 0 10px;
-}
-
-.timeline .post .post-info .icons i {
-  margin: 0 5px;
-  font-size: 30px;
-}
-
-.timeline .post .post-info .likes {
-  font-size: 15px;
-  font-weight: 800;
-  margin: 5px 0;
-}
-
-.timeline .post .post-info .comments {
-  font-size: 15px;
-  margin-bottom: 5px;
-}
-
-.timeline .post .post-info .comments p {
-  margin: 0;
-}
-
-.timeline .post .post-info .comments p span {
-  font-weight: 600;
-}
-
 .timeline .post .post-info .timestamp {
   margin-top: 15px;
   font-size: small;
