@@ -8,11 +8,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-
-.App nav {
-  background-color: #4c4c977f;
-}
-
 .App .body {
   display: flex;
 }
@@ -20,6 +15,7 @@ body {
 
 /** Header **/
 .header-nav {
+  background-color: #4c4c977f;
   padding: 15px 20px;
   display: flex;
   justify-content: space-between;
