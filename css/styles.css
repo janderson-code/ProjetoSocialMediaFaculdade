@@ -284,6 +284,7 @@ body {
 
 /*Rodapé*/
 footer {
+  height: 100%;
   background-color: #e4e5e9;
   box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
   border: 1px solid rgb(166, 162, 162);
@@ -292,8 +293,4 @@ footer {
 footer img {
   height: 100px;
   width: 300px;
-}
-
-footer {
-  height: 100%;
 }
