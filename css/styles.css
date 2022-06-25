@@ -199,7 +199,7 @@ body {
 
 }
 
-.about {
+.chat .about {
   margin-left: 60px;
   padding-top: 5px;
   text-align: start;
@@ -216,7 +216,7 @@ body {
   margin-left: 3px;
 }
 
-.user {
+.chat .user {
   width: 100%;
   margin-left: 90px;
 }
