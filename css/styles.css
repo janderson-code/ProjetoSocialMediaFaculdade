@@ -17,11 +17,7 @@ body {
   display: flex;
 }
 
-.App footer{
-  height:70px;
-  background-color: rgb(233, 225, 225);
-  justify-content:space-evenly;
-}
+
 /** Header **/
 .header-nav {
   padding: 15px 20px;
@@ -38,7 +34,7 @@ body {
 
 .header-nav .left img {
   height: 40px;
-  
+
 }
 
 
@@ -68,7 +64,7 @@ body {
   align-items: center;
   padding: 0 30px;
   cursor: pointer;
-  border: #fff  ;
+  border: #fff;
 }
 
 .header-nav .header-nav-center .option:hover {
@@ -84,11 +80,12 @@ body {
 }
 
 .header-nav .header-nav-right img {
-  margin-right: 10px  ;
+  margin-right: 10px;
   height: 40px;
   width: 40px;
   border-radius: 50%;
 }
+
 .header-nav .header-nav-right {
   display: flex;
 }
@@ -126,8 +123,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-size: small;
   border-bottom: 1px solid #dadada;
 }
@@ -141,7 +138,7 @@ body {
 }
 
 .timeline .post .post-head .profile-pic img {
-  height:50px;
+  height: 50px;
   width: 50px;
 }
 
@@ -190,7 +187,7 @@ body {
 }
 
 .timeline .post .post-info .timestamp {
-  margin-top:15px;
+  margin-top: 15px;
   font-size: small;
   border-bottom: 1px solid #dadada;
   margin-bottom: 5px;
@@ -204,23 +201,25 @@ body {
 }
 
 /* Chat*/
-.chat{
+.chat {
   display: flex;
   background: #e4e5e9;
   flex-direction: column;
   border: 1px solid rgb(166, 162, 162);
   border-radius: 10px;
-  position:fixed;
+  position: fixed;
   float: right;
   margin-top: 10px;
   margin-left: 75%;
-  width:260px;
-  height:530px;
+  width: 260px;
+  height: 530px;
   box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
 }
+
 .chat p {
   text-align: center;
 }
+
 .chat ul {
   padding: 20px;
   height: 770px;
@@ -230,16 +229,18 @@ body {
 .chat ul li {
   padding-bottom: 20px;
   float: right;
-  
+
 }
+
 .about {
   margin-left: 60px;
   padding-top: 5px;
   text-align: start;
-  text-align:left ;
+  text-align: left;
 }
+
 .chat ul li img {
-  position:fixed;
+  position: fixed;
   float: left;
   margin-right: 20px;
   border-radius: 30px;
@@ -247,26 +248,30 @@ body {
   height: 50px;
   margin-left: 3px;
 }
- .user{
-  width:100%;
+
+.user {
+  width: 100%;
   margin-left: 90px;
 }
-.about .name{
+
+.about .name {
   text-align: left;
 }
-.chat .online{
+
+.chat .online {
   color: green;
 }
 
-.panel{
+/* Painel de Informações */
+.panel {
   position: absolute;
   background: #e4e5e9;
   border: 1px solid rgb(166, 162, 162);
   border-radius: 4px;
   margin-right: 75%;
   margin-top: 220px;
-  width:260px;
-  height:450px;
+  width: 260px;
+  height: 450px;
   box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
 }
 
@@ -277,14 +282,16 @@ body {
 .panel ul li {
   font-size: small;
   border-bottom: 5px solid #dadada;
-  padding:21.5px;
-}
-.panel ul li:hover {
- background-color: rgb(63, 167, 167);
- cursor: pointer;
+  padding: 21.5px;
 }
 
-.panel-user-info{
+.panel ul li:hover {
+  background-color: rgb(63, 167, 167);
+  cursor: pointer;
+}
+
+/* Painel de Informações do Usuário */
+.panel-user-info {
   position: absolute;
   background: #e4e5e9;
   border: 1px solid rgb(166, 162, 162);
@@ -293,13 +300,28 @@ body {
   margin-top: 5px;
   margin-bottom: 20px;
   padding-top: 5px;
-  width:260px;
-  height:200px;
+  width: 260px;
+  height: 200px;
   text-align: center;
 
 }
+
 .panel-user-info img {
   width: 90px;
-  height:90px;
+  height: 90px;
 
+}
+
+/*Rodapé*/
+footer {
+  background-color: #e4e5e9;
+}
+
+footer img {
+  height: 100px;
+  width: 300px;
+}
+
+footer {
+  height: 100%;
 }
