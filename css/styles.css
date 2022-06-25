@@ -100,7 +100,7 @@ body {
 
 /* Main Timeline*/
 
-.timeline {
+.feed {
   background-color: #FAFAFA;
   display: flex;
   flex-direction: column;
@@ -108,7 +108,7 @@ body {
 
 }
 
-.timeline .post {
+.feed .post {
   height: auto;
   width: 50%;
   border: 1px solid #dadada;
@@ -116,7 +116,7 @@ body {
   overflow: hidden;
 }
 
-.timeline .post .post-head {
+.feed .post .post-head {
   height: 80px;
   display: flex;
   align-items: center;
@@ -124,7 +124,7 @@ body {
   border-bottom: 1px solid #dadada;
 }
 
-.timeline .post .post-head .profile-pic {
+.feed .post .post-head .profile-pic {
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -132,28 +132,28 @@ body {
   margin: 0 5px;
 }
 
-.timeline .post .post-head .profile-pic img {
+.feed .post .post-head .profile-pic img {
   height: 50px;
   width: 50px;
 }
 
-.timeline .post .post-head .username {
+.feed .post .post-head .username {
   margin-left: 10px;
 }
 
-.timeline .post .post-head .username p {
+.feed .post .post-head .username p {
   margin: auto 0;
 }
 
-.timeline .post .post-body img {
+.feed .post .post-body img {
   width: 100%;
 }
 
-.timeline .post .post-info {
+.feed .post .post-info {
   padding: 10px;
 }
 
-.timeline .post .post-info .timestamp {
+.feed .post .post-info .timestamp {
   margin-top: 15px;
   font-size: small;
   border-bottom: 1px solid #dadada;
@@ -161,7 +161,7 @@ body {
   color: #808080;
 }
 
-.timeline .post .post-info .add-comments input {
+.feed .post .post-info .add-comments input {
   width: 80%;
   margin-left: 10px;
   border: none;
