@@ -92,7 +92,7 @@ body {
   margin-left: 10px;
 }
 
-/* Main Feed*/
+/* Main Post Feed*/
 
 .feed {
   background-color: #FAFAFA;
@@ -227,7 +227,7 @@ body {
   color: gray;
 }
 
-/* Painel de Informações */
+/* Painel de informação de opções */
 .panel {
   position: absolute;
   background: #e4e5e9;
