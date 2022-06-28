@@ -94,6 +94,61 @@ body {
 
 /* Main Post Feed*/
 
+.feed .newpost{
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: #e4e5e9;
+  border: 1px solid rgb(166, 162, 162);
+  border-radius: 4px;
+  width: 50%;
+  height: 150px;
+  text-align:center;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: 10px;
+
+}
+
+.feed .newpost h1{
+  margin-top: 5px;
+  font-size: 19px;
+}
+
+.feed .newpost input{
+  border-color: transparent;
+  border-radius: 5px;
+  margin-top: 10px;
+  width:95%;
+  height:30px;
+}
+
+.feed .newpost input:hover{
+  cursor: pointer;
+}
+
+.feed .newpost .newpostOp{
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 15px;
+}
+.feed .newpost .newpostOp i{
+  font-size: 16px;
+  padding: 0px 40px;
+  margin-bottom: 4px;
+}
+
+.feed .newpost .newpostOp img{
+  width:20px;
+  height:20px;
+}
+
+.feed .newpost .newpostOp i{
+  cursor: pointer;
+}
+
 .feed {
   background-color: #FAFAFA;
   display: flex;
