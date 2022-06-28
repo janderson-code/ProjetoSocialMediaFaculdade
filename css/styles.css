@@ -146,7 +146,12 @@ body {
 }
 
 .feed .newpost .newpostOp i{
+  transition: transform .3s; /* Animação ao passar o mouse */
   cursor: pointer;
+}
+
+.newpost i:hover{
+  transform: scale(1.5);
 }
 
 .feed {
