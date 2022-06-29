@@ -243,6 +243,10 @@ body {
   width: 50px;
 }
 
+.feed .post .post-comment i {
+  margin-left: 55%;
+}
+
 /* Chat*/
 .chat {
   display: flex;
