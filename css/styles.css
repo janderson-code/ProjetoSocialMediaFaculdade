@@ -222,6 +222,27 @@ body {
   border: none;
 }
 
+.feed .post .post-comment {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  font-size: small;
+  border-bottom: 1px solid #dadada;
+}
+
+.feed .post .post-comment .profile-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 5px;
+}
+
+.feed .post .post-comment .profile-pic img {
+  height: 50px;
+  width: 50px;
+}
+
 /* Chat*/
 .chat {
   display: flex;
